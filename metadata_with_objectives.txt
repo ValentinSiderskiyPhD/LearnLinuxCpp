@@ -1,0 +1,21 @@
+use_muscle true
+con_hz 30
+sim_hz 1200
+skel_file /data/human.xml
+muscle_file /data/muscle284.xml
+bvh_file /data/motion/02_04_trim_MASS.bvh true
+reward_param 0.75 0.1 0.0 0.15
+objective jump rightfoot leftfoot
+objective walk
+objective dance
+objective deadlift
+objective cartwheel
+objective kick
+objective kick
+objective kick
+objective kick
+objective kick
+objective kick
+objective kick
+objective cat
+objective
